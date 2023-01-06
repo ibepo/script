@@ -1,0 +1,6 @@
+
+#! /bin/sh
+
+# wallimage=$(shuf -en1 ~/.config/bspwm/rices/$RICETHEME/*.webp)
+wallimage=$(shuf -en1 ~/Pictures/wallpapers2/*)
+feh --no-fehbg --bg-fill $wallimage
